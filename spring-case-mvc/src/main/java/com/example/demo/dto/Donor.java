@@ -17,17 +17,15 @@ import lombok.experimental.FieldDefaults;
 @FieldDefaults(level= AccessLevel.PRIVATE)
 public class Donor {
 
-	@Length(max=4)
-	int regId;
-	String donorName;
 	
+	int regId;
+	String donorName;	
 	String bloodGrp;
-	@Length(min=10,max=10)
+	//@Length(min=10,max=10)
 	long phoneNumber;
 	@DateTimeFormat(iso=ISO.DATE)
 	LocalDate lastDonated;
 	String location;
-
 	int campId;
 
 }
