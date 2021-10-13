@@ -56,9 +56,11 @@ body{
 <div class="wrap">
 <div class="search">
 <form:form action="deleteDonorById" modelAttribute="data" method="delete">
-<label for"">Delete By donor Reg-Id</label>
+<label for"">Unregister By donor Reg-Id</label>
+<br>
+<p>Enter the Registration ID</p>
 <form:input path="regId" class="searchTerm"/>
-<input type="submit" class="searchButton" value="Delete Donor">
+<input type="submit" class="searchButton" value="Unregister Donor">
 </form:form>
 </div>
 </div>
