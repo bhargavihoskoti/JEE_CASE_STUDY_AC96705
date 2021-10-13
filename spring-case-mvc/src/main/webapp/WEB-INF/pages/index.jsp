@@ -25,20 +25,28 @@ body{
 
 <h1>${majHeading}</h1>
 <hr>
-<a href="addDonor">Register Donar</a>
+<p>To Register Yourself as a Donor</p>
+<a href="addDonor">Register Donor</a>
 <hr>
-<a href="getAllDonors">Show Donars</a>
+<p>To See Available Donars</p>
+<a href="getAllDonors">Show Donors</a>
 <hr>
+<p>To register a Camp</p>
 <a href="addCamp">Add Camp</a>
 <hr>
+<p>To check Available Camps at Present</p>
 <a href="getAllCamps">Show Camps</a>
 <hr>
+<p>To Search Donors by Location</p>
 <a href="searchByLoc">Search by Location</a>
 <hr>
+<p>To search the Donor by Blood Group</p>
 <a href="searchByBloodGroup">Search by Blood Group</a>
 <hr>
-<a href="deleteById">Delete by Donor ID</a>
+<p>To Unregister as Donor</p>
+<a href="deleteById"> Click to Unregister</a>
 <hr>
+<p>To Update Donor Location</p>
 <a href="updateById">Update by Donor ID</a>
 <hr>
 <div class="instruct">

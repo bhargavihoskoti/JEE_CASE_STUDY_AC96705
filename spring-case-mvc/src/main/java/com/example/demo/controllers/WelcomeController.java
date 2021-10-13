@@ -177,7 +177,6 @@ public class WelcomeController {
 		return ResponseEntity.status(HttpStatus.NOT_FOUND).body("404 Record Not Found");
 		}
 
-
 	}
 	
 }
