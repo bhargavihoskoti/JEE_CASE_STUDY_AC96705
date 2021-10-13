@@ -117,7 +117,7 @@ public class WelcomeController {
 	}
 	
 	@GetMapping(path = "/getDonorByBloodGroup")
-	public String findByBloodGroup(@RequestParam("bloodGrp") String bloodGrp, Model model) {
+	public String findByBloodGroup(@Valid @RequestParam("bloodGrp") String bloodGrp, Model model) {
 
 	Donor[] resp =template.getForObject("http://localhost:1010/api/v1/donors/srchby/"+bloodGrp,
 	Donor[].class);

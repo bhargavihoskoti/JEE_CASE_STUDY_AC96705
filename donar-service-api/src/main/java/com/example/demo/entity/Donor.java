@@ -4,8 +4,10 @@ import java.time.LocalDate;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+//import javax.persistence.GeneratedValue;
+//import javax.persistence.GenerationType;
 import javax.persistence.Id;
-
+//import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
 import lombok.Data;
@@ -15,6 +17,8 @@ import lombok.Data;
 @Table(name="donor")
 public class Donor {
 	@Id
+//	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "regid_seq")
+//	@SequenceGenerator(name="regid_seq", sequenceName = "regid_seq", initialValue = 100)
 	@Column(name="regid")
 	int regId;
 	

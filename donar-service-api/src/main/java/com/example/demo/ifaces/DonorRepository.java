@@ -26,6 +26,4 @@ public interface DonorRepository extends JpaRepository<Donor, Integer> {
 	public int updateLocation(@Param("regId") int regId ,@Param("location") String location);
 	
 	
-	
-
 }
